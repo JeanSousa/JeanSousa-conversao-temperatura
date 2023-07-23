@@ -4,6 +4,7 @@ services:
   conversao-temperatura:
     container_name: conversao-temperatura
     restart: always
+    image: jeansousa/conversao-temperatura:v1
     build:
       context: ./
       dockerfile: Dockerfile
